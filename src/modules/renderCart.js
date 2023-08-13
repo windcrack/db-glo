@@ -1,5 +1,6 @@
 const renderCart = (goods) =>{
     const cartWrapper = document.querySelector('.cart-wrapper');
+    const cartSendBtn = document.querySelector('.cart-confirm');
 
     cartWrapper.innerHTML = '';
 
@@ -8,7 +9,7 @@ const renderCart = (goods) =>{
             <div id="cart-empty">
                 Ваша корзина пока пуста
             </div>
-        `)
+        `);
     }
 
     goods.forEach((goodsItem) => {
