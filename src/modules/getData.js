@@ -1,5 +1,5 @@
 const getData = () =>{
-    return fetch('https://test-glo-db-default-rtdb.firebaseio.com/goods.json')
+    return fetch('../../db/db.json')
       .then(response => response.json());
 }
 
